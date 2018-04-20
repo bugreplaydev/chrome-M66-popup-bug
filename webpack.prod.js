@@ -24,6 +24,10 @@ module.exports = {
       extensions: [".webpack.js", ".web.js", ".js",".jsx","css"],
     },
 
+  watchOptions: {
+    ignored: /node_modules/,
+  },
+  devtool: 'source-map',
 	module: {
 		rules: [
 			{

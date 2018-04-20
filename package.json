@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "postinstall": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "npm install && mkdir -p release && cp manifest.json release/ && cp -r html/ release/html/ && cp -r dist/ release/dist/ && cp -r css/ release/css/ && zip -qr chrome-M66-popup-bug.zip release/"
   },
   "repository": {
     "type": "git",
