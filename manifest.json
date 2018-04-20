@@ -2,13 +2,13 @@
   "background": {
     "scripts": []
   },
-  "description": "React Demo Extension For Reproducing bug steps",
+  "description": "Test case for Chromium bug 428044 in M66, popup display issue",
   "manifest_version": 2,
-  "name": "React-Bug-Reproduction",
+  "name": "Chromium-bug-428044-M66-POC",
   "permissions": [
     "activeTab"
   ],
-  "short_name": "ReactBugRepro",
+  "short_name": "Chromium-bug-428044-M66-POC",
   "version": "0.0.1",
   "browser_action": {
     "default_popup": "html/popup.html"
