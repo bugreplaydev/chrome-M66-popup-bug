@@ -14,7 +14,12 @@ export const displayApp = () => {
 
 let Popup = (props) => {
   displayApp();
-  return <div>Hey hey what up what up</div>
+  return (
+    <div>
+      <h1>This should appear 200ms after the popup is opened.</h1>
+      <p>Instead, in M66 it is much more delayed, or you have to click the tiny white square.</p>
+    </div>);
+
 };
 
 
